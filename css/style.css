@@ -1,0 +1,172 @@
+html{
+    display: flex;
+}
+body{
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: space-around;
+}
+#main{
+    display: flex;
+    margin:0 auto;
+    flex-direction: row-reverse;
+    background: #F5F7FA;
+    width: 1280px;
+    height: 1399px;
+    padding: 40px;
+    justify-content: center;
+}
+#mainContent{
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 102px 0px 0px 88px;
+    width: 830px;
+}
+#sidebar{
+    background: #1E2939;
+    padding-top: 48px;
+    width: 370px;
+}
+img{
+    margin-bottom: 0px;
+    width: 370px;
+    height: 354px;
+    left: 40px;
+    top: 80px;
+}
+#sidebar h2{
+    font-size: 22px;
+    line-height: 27px;
+}
+.sidebarTegs{
+    color: white;
+    margin-bottom: 10px;
+}
+#sidebar ::marker{
+    color: #FB6D3A;
+}
+#contacts{
+    height: 83px;
+    margin: 49px 100px 0px 40px;
+}
+#contacts p{
+    margin: 0px 0px 0px 0px;
+}
+#techSkills{
+    width: 121px;
+    height: 203px;
+    margin: 47px 209px -25px 40px;
+}
+#softSkills{
+    width: 113px;
+    height: 131px;
+    margin: 44px 217px 0px 40px;
+}
+#sidebar a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.5;
+    color: rgba(142, 147, 155, 1);
+}
+#techSkills li, #softSkills li{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin: 0;
+}
+#softSkills ul,#techSkills ul{
+    left: -20px;
+    position: relative;
+    margin: 0;
+}
+
+#aboutUser{
+    width: 400px;
+    height: 230px;
+    margin-bottom: 40px;
+}
+#progect{
+    width: 485px;
+    height: 107px;
+    margin-bottom: 25px;
+}
+#work{
+    padding-bottom: 12px;
+    width: 525px;
+}
+#work li{
+    left: -20px;
+    position: relative;
+}
+#progect ol{
+    left: -20px;
+    position: relative;
+}
+#compani1{
+    margin-bottom: 42px;
+}
+#compani1 li{
+    font-size: 13px;
+}
+.workCompani1{
+    margin-bottom: 8px;
+}
+#compani2{
+    margin-bottom: 20px;
+}
+.workCompani2{
+    margin-bottom: 11px;
+}
+h1{
+    margin: 19px 0px 24px 0px;
+}
+.workH3{
+    margin: 0px 0px 12px 0px;
+}
+#aboutUser h2{
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0px;
+}
+#aboutUser p, #compani1 li,#compani2 li, #compani3 li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+span{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+#work li, #progect li, #aboutUser p{
+    color: rgba(89, 89, 89, 1);
+
+}
+#work p,  #education p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+
+}
+#linc ::marker, #linc span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+#linc a{
+    text-decoration: none;
+    color: rgba(89, 89, 89, 1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
