@@ -1,125 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="stylesheet" href="./css/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-	<title>My resume</title>
-</head>
-<body>
-	<div id="main">
-		<div id="mainContent">
-			<div id="aboutUser">
-				<h2>Front-End Developer</h2>
-				
-				<h1>Dmitriy Marenich</h1>
-				<p>I am respectful, responsible and scrupulous in fulfilling my duties.
-					I am punctual, I have organizational skills, adapt quickly to the working 
-					environment and I constantly work on improving my skills.
-					I feel confident working with the team and easily get along with people.
-				</p>				 
-			</div>
-			<div id="progect">
-				<h3 class="workCompani1">Projects</h3>
-				<ol id="linc">
-					<li>
-						<a href="https://dmitriy0212.github.io/test4/">https://dmitriy0212.github.io/test4/</a>...................<span>[</span> HTML5, CSS3 <span>]</span>
-					</li>
-					<li>
-						<a href="https://dmitriy0212.github.io/">https://dmitriy0212.github.io/</a>......................<span>[</span> React.js <span>]</span>
-					</li>
-					<li>
-						<a href="https://dmitriy0212.github.io/VUE2/">https://dmitriy0212.github.io/VUE2/</a>.........................<span>[</span> VUE.js <span>]</span>
-					</li>
-				</ol>
-			</div>
-			<div id="work">
-				<h3 class="workH3">Work Experiency</h3>
-				<div id="compani1">
-					<h4 class="workCompani2">Design-engineer <span>Staff member</span></h4>
-					<p class="workCompani1">July 2015 - April 16  |  Ukraine</p>
-					<ul>
-						<li>
-							Evolutionis novae et modernizationis instrumenti exsistentis.
-						</li>
-						<li>
-							Calculation of estimates and preparation of documents.
-						</li>
-						<li>
-							Planning and maintaining documents.  
-						</li>
-						<li>
-							Assistance in production at all levels.
-						</li>
-					</ul>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="./css/style.css">
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet">
+		<title>My resume</title>
+	</head>
+	<body>
+		<div class="conteyner">
+			<div class="main">
+				<aside class="sidebar">
+					<img class="sidebar__img" src="img\photo.jpg" alt="user photo">
+					<div class="sidebar__contacts">
+						<h2 class="sidebar__head">Contacts</h2>
+						<p class="sidebar__link">
+							C: <a class="sidebar__link" href="tel:+380678849278">+38
+								067 884 92 78</a>
+						</p>
+						<p class="sidebar__link">
+							E: <a class="sidebar__link"
+								href="mailto:marenichd1990@gmail.com">marenichd1990@gmail.com</a>
+						</p>
+					</div>
+					<div class="sidebar__skills">
+						<div id="menu-btn" class="header__menu-btn">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<h2 class="sidebar__head">Tech Skills</h2>
+						<ul class="skills__list">
+							<li class="skills__item">HTML5</li>
+							<li class="skills__item">CSS3</li>
+							<li class="skills__item">GIT</li>
+							<li class="skills__item">JavaScript</li>
+							<li class="skills__item">React.js</li>
+							<li class="skills__item">VUE.js</li>
+						</ul>
+					</div>
+				</aside>
+				<div class="content">
+					<div class="content__about">
+						<h3 class="about__jobtitle">Front-End Developer</h3>
+						<h1 class="about__header">Dmitriy Marenich</h1>
+						<p class="title">I am respectful, responsible and scrupulous in fulfilling
+							my duties.
+							I am punctual, I have organizational skills, adapt quickly to the working
+							environment and I constantly work on improving my skills.
+							I feel confident working with the team and easily get along with people.
+						</p>
+					</div>
+					<div class="content__progect">
+						<h3 class="about__jobtitle">Projects</h3>
+						<ol class="progect__list">
+							<li>
+								<a class="progect__link"
+									href="https://dmitriy0212.github.io/Minesweeper-webpack/">https://dmitriy0212.github.io/Minesweeper-webpack/</a><span
+									class="progect__item__span">[ Minesweeper ]</span>
+							</li>
+							<li>
+								<a class="progect__link" href="https://dmitriy0212.github.io/test4/">https://dmitriy0212.github.io/test4/</a><span
+									class="progect__item__span">[
+									HTML5, CSS3 ]</span>
+							</li>
+							<li>
+								<a class="progect__link" href="https://dmitriy0212.github.io/">https://dmitriy0212.github.io/</a><span
+									class="progect__item__span">[
+									React.js ]</span>
+							</li>
+							<li>
+								<a class="progect__link" href="https://dmitriy0212.github.io/VUE2/">https://dmitriy0212.github.io/VUE2/</a><span
+									class="progect__item__span">[
+									VUE.js ]</span>
+							</li>
+						</ol>
+					</div>
+					<div class="content__work">
+						<h3 class="about__jobtitle">Work Experiency</h3>
+						<div>
+							<h4 class="about__jobtitle">Design-engineer <span class="work__item">Staff
+									member</span></h4>
+							<p class="title">July 2015 - April 16 | Ukraine</p>
+							<ul>
+								<li class="title">
+									Evolutionis novae et modernizationis instrumenti exsistentis.
+								</li>
+								<li class="title">
+									Calculation of estimates and preparation of documents.
+								</li>
+								<li class="title">
+									Planning and maintaining documents.
+								</li>
+								<li class="title">
+									Assistance in production at all levels.
+								</li>
+							</ul>
+						</div>
+						<div>
+							<h4 class="about__jobtitle">Engineer-technologist <span
+									class="work__item">Staff member</span></h4>
+							<p class="title">April 16 - October 2016 | Ukraine</p>
+							<ul>
+								<li class="title">
+									Evolutionis novae et modernizationis instrumenti exsistentis.
+								</li>
+								<li class="title">
+									Calculation of working hours.
+								</li>
+								<li class="title">
+									Fixture development.
+								</li>
+							</ul>
+						</div>
+						<div>
+							<h4 class="about__jobtitle">Engineer-programmator <span
+									class="work__item">Staff member</span></h4>
+							<p class="title">July 2017 - February 2022 | Ukraine</p>
+							<ul>
+								<li class="title">
+									Writing programs on a coordinate press.
+								</li>
+								<li class="title">
+									Maintaining design documentation.
+								</li>
+								<li class="title">
+									Product database management.
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content__education">
+						<h3 class="about__jobtitle">Education</h3>
+						<h4 class="title"><span class="work__item">Kharkiv Polytechnic Technical
+								University</span></h4>
+						<h5>Mechanical-engineering</h5>
+						<p class="title">September 2009 - June 2015 | Ukraine</p>
+						<h4 class="title"><span class="work__item">Basic Programming Courses
+								Source iT</span></h4>
+						<h5>PHP, JavaScript</h5>
+						<p class="title">September 2019 - January 2020 | Ukraine</p>
+					</div>
 				</div>
-				<div id="compani2">
-					<h4 class="workCompani2">Engineer-technologist <span>Staff member</span></h4>
-					<p class="workCompani1">April 16 - October 2016  |  Ukraine</p>
-					<ul>
-						<li>
-							Evolutionis novae et modernizationis instrumenti exsistentis. 
-						</li>
-						<li>
-							Calculation of working hours.
-						</li>
-						<li>
-							Fixture development.  
-						</li>
-					</ul>
-				</div>
-				<div id="compani3">
-					<h4 class="workCompani2">Engineer-programmator <span>Staff member</span></h4>
-					<p>July 2017 - February 2022   |   Ukraine</p>
-					<ul>
-						<li>
-							Writing programs on a coordinate press.
-						</li>
-						<li>
-							Maintaining design documentation.
-						</li>
-						<li>
-							Product database management.
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div id="education">
-				<h3 class="workH3">Education</h3>
-				<h4><span class="workCompani2">Kharkiv Polytechnic Technical University</span></h4>
-				<h5 class="workCompani1">Mechanical-engineering</h5>
-				<p>September 2009 - June 2015   |   Ukraine</p>
-				<h4><span class="workCompani2">Basic Programming Courses Source iT</span></h4>
-				<h5 class="workCompani1">PHP, JavaScript</h5>
-				<p>September 2019 - January 2020   |   Ukraine</p>
 			</div>
 		</div>
-		<aside id="sidebar">
-			<img src="img\photo.jpg" alt="user photo">
-			<div id="contacts">
-				<h2 class="sidebarTegs">Contacts</h2>
-				<p class="sidebarTegs">
-					C: <a href="tel:+380678849278">+38 067 884 92 78</a>
-				</p>
-				<p class="sidebarTegs">
-					E: <a href="mailto:marenichd1990@gmail.com">marenichd1990@gmail.com</a>
-				</p>
-			</div>
-			<div id="techSkills">
-				<h2 class="sidebarTegs">Tech Skills</h2>
-				<ul>
-					<li>HTML5</li>
-					<li>CSS3</li>
-					<li>GIT</li>
-					<li>JavaScript</li>
-					<li>React.js</li>
-					<li>VUE.js</li>
-				</ul>
-			</div>
-		</aside>
-	</div>
-</body>
+	</body>
+	<script>
+		let list = document.getElementById('menu-btn')
+		list.addEventListener('click',()=>{
+			let listOn = document.querySelector('.skills__list')
+			listOn.classList.toggle('active');
+			list.classList.toggle('active');
+		})
+	</script>
 </html>
